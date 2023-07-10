@@ -401,7 +401,7 @@ async def admin_input_joke_jokes(message:types.Message,state:FSMContext):
 
 
 def setup(dp):
-    dp.register_message_handler(admin,commands='adminRusIT_042023MAMQ',state=None)
+    dp.register_message_handler(admin,commands='',state=None)
     dp.register_message_handler(name_scripts_insert,content_types='text', state=ScriptsInsert.name)
     dp.register_message_handler(descriptions_scripts_insert, content_types='text', state=ScriptsInsert.description)
     dp.register_message_handler(price_scripts_insert, content_types='text', state=ScriptsInsert.price)
