@@ -11,9 +11,9 @@ import datetime
 from class_group.states import ScriptLeafThrough,Form,Cooperation,CollabWithUser,ChatGPT
 import openai
 
-openai.api_key = "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" #  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
+openai.api_key = "" #  
 
-CHANNEL_ID = "-918798877"
+CHANNEL_ID = ""
 
 async def info(message:types.Message,state:FSMContext):
     global base, cur
